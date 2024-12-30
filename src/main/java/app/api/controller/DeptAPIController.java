@@ -27,6 +27,11 @@ public class DeptAPIController {
 	public String deptApi() {
 		return "dept api controller";
 	}
+	@GetMapping("/app")
+	public String appApi() {
+		return "app controller";
+	}
+	
 	
 	@GetMapping("/depts")
 	public List<Dept> getDepts() {
